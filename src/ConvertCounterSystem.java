@@ -1,7 +1,7 @@
 import java.util.Stack;
 import java.util.WeakHashMap;
 
-public class ConvertCounterSystem<T> {
+public class ConvertCounterSystem {
     public static String convertBinary(int number) {
         Stack<Integer> stack = new Stack<Integer>();
         while (number > 0) {
